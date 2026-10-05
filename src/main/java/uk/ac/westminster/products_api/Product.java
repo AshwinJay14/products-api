@@ -1,0 +1,16 @@
+package uk.ac.westminster.products_api;
+
+public class Product {
+    public long id;
+    public String name;
+    public double price;
+
+    public Product (Long id, String name, Double price){
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
+
+
+
+}
